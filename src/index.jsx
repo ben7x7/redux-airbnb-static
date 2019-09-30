@@ -7,10 +7,11 @@ import { createStore, combineReducers } from 'redux';
 // internal modules
 import App from './components/app';
 import '../assets/stylesheets/application.scss';
-
+// import reducers
+import flatsReducer from './reducers/flats_reducer';
 // State and reducers
 const reducers = combineReducers({
-  changeMe: (state = null, action) => state
+  flats: flatsReducer
 });
 
 // render an instance of the component in the DOM
