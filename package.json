@@ -26,12 +26,14 @@
   "dependencies": {
     "chokidar": "3",
     "core-js": "3",
+    "fsevents": "2",
     "google-map-react": "^1.1.5",
     "js-yaml": "^3.13.1",
     "react": "16.2",
     "react-dom": "16.2",
     "react-redux": "^5.0.6",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "uuid": "7"
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
