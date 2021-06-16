@@ -28,11 +28,15 @@
     "core-js": "3",
     "fsevents": "2",
     "google-map-react": "^1.1.5",
+    "is-svg": "^4.2.2",
     "js-yaml": "^3.13.1",
+    "node-fetch": "^2.6.1",
+    "normalize-url": "^4.5.1",
     "react": "16.2",
     "react-dom": "16.2",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
+    "trim-newlines": "^3.0.1",
     "uuid": "7"
   },
   "scripts": {
